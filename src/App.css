@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f0f0f0;
+  padding: 56px 134px;
+  max-width: 684px;
+
+  gap: 40px;
+  border-radius: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 40px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: Zen Dots;
+  color: #0d6efd;
+  text-align: center;
+  line-height: 39px;
+}
