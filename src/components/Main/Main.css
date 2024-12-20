@@ -13,55 +13,14 @@
   margin-bottom: 24px;
 }
 
-.contatos__list-item {
-  display: flex;
-  align-items: left;
-  justify-content: space-between;
-}
-
-.perfil__imagem {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-.list-item__perfil {
-  display: flex;
-  gap: 8px;
-}
-
-.add__contato {
+input {
+  border: 1px solid #ced4da;
+  padding: 7px 13px;
   background-color: transparent;
-  border: 1px solid #0d6efd;
-  padding: 6px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: #0d6efd;
+  width: 100%;
 
   font-family: Montserrat;
-  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-}
-
-.list-item__icones {
-  display: flex;
-  gap: 16px;
-}
-
-.perfil__titulo {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  color: #212529;
-}
-
-.list-item__telefone {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  color: #212529;
+  color: #6c757d;
 }

@@ -1,14 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
 import Main from './components/Main/Main'
+import Cadastro from './components/Cadastro/Cadastro'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Main/>
-    </>
+    <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="cadastro" element={<Cadastro />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

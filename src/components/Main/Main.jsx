@@ -6,9 +6,16 @@ import cat from '../../assets/cat.jpg';
 
 
 import CampoDeDigitacao from "../CampoDeDigitacao/CampoDeDigitacao";
-import ItemDaLista from "../ItemDaLista/ItemDaLista";
+import ItemDaLista from "./ItemDaLista/ItemDaLista";
+import { useNavigate } from "react-router-dom";
 
 export default function Main () {
+
+    let navigate = useNavigate();
+
+    function handleNavigate() {
+        navigate("/cadastro");
+    }
 
     return (
         <div className="content">
@@ -17,9 +24,9 @@ export default function Main () {
                 <img src={contact} alt="Contatos" />
                 <h1>Organize, <span className="titulo-destaque">conecte,</span> simplifique!</h1>
 
-                <CampoDeDigitacao type="text" placeholder="Digite para buscar" />
+                <input type={type} placeholder={placeholder}/>
 
-                <button className="add__contato">
+                <button className="add__contato" onClick={handleNavigate}>
                     <img src={addIcon} />
                     Criar novo contato
                 </button>

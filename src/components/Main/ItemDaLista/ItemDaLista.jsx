@@ -1,6 +1,6 @@
 import "./ItemDaLista.css";
-import editIcon from '../../assets/pencil-square.svg';
-import deleteIcon from '../../assets/trash.svg';
+import editIcon from '../../../assets/pencil-square.svg';
+import deleteIcon from '../../../assets/trash.svg';
 
 export default function ItemDaLista({ nome, telefone, imagem }) {
     return (
