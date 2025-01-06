@@ -1,18 +1,3 @@
-.titulo-destaque {
-  color: #fd9843;
-}
-
-.contatos {
-  color: #0d6efd;
-  max-width: 416px;
-  width: 100%;
-}
-
-.contatos__titulo {
-  border-bottom: 1px solid #0d6efd;
-  margin-bottom: 24px;
-}
-
 input {
   border: 1px solid #ced4da;
   padding: 7px 13px;

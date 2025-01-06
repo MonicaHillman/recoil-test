@@ -58,20 +58,6 @@
 
   text-align: center;
 }
-
-.cadastro__campo {
-  margin-bottom: 16px;
-}
-
-.cadastro__label {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-
-  color: #212529;
-}
-
 .cadastro__botoes {
   display: flex;
   justify-content: space-between;
