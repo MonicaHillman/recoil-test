@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="cadastro" element={<Cadastro />} />
-      <Route path="/editar/:id" element={<EditarContato />} />
+        <Route path="/" element={<Main />} />
+        <Route path="cadastro" element={<Cadastro />} />
+        <Route path="/editar/:id" element={<EditarContato />} />
       </Routes>
     </BrowserRouter>
   )

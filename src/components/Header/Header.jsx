@@ -1,10 +1,16 @@
-import logo from '../../assets/Logo.svg';
-import './Header.css';
+import styled from "styled-components";
+import logo from "../../assets/Logo.svg";
 
-export default function Header () {
-    return (
-        <header>
-           <img src={logo} alt="Logo"/>
-        </header>
-    )
+const HeaderWrapper = styled.header`
+  margin-bottom: 40px;
+`;
+
+ function Header() {
+  return (
+    <HeaderWrapper>
+      <img src={logo} alt="Logo" />
+    </HeaderWrapper>
+  );
 }
+
+export default Header;
